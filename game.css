@@ -1,0 +1,16 @@
+* { margin: 0; padding: 0; }
+html, body { height: 100%; width: 100%; }
+canvas { display: block; }
+
+body {
+	background: #000;
+}
+
+#gameCanvas {
+	height: 512px;
+	left: 50%;
+	margin: -256px 0 0 -384px;
+	position: relative;
+	top: 50%;
+	width: 768px;
+}
